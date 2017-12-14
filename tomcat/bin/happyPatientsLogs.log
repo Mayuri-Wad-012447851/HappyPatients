@@ -1,0 +1,376 @@
+2017-12-12 16:27:14 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 16:27:20 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 16:27:20 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Nikhil', lastName='Rajguru', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=09503f80-df19-11e7-9414-b503027b1beb
+2017-12-12 17:01:19 ERROR HappyPatientsService:164 - Patient with given Id does not exist.
+java.lang.NullPointerException
+	at com.sjsu.cs249.Services.HappyPatientsService.deletePatient(HappyPatientsService.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:144)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:161)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:160)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:99)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:308)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:291)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1140)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:403)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-12 17:07:20 ERROR HappyPatientsService:164 - Patient with given Id does not exist.
+java.lang.NullPointerException
+	at com.sjsu.cs249.Services.HappyPatientsService.deletePatient(HappyPatientsService.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:144)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:161)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:160)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:99)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:308)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:291)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1140)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:403)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-12 17:08:07 ERROR HappyPatientsService:164 - Patient with given Id does not exist.
+java.lang.NullPointerException
+	at com.sjsu.cs249.Services.HappyPatientsService.deletePatient(HappyPatientsService.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:144)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:161)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:160)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:99)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:308)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:291)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1140)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:403)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-12 17:10:57 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 17:11:02 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 17:11:02 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Nikhil', lastName='Rajguru', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=09503f80-df19-11e7-9414-b503027b1beb
+2017-12-12 17:11:26 ERROR HappyPatientsService:164 - Patient with given Id does not exist.
+java.lang.NullPointerException
+	at com.sjsu.cs249.Services.HappyPatientsService.deletePatient(HappyPatientsService.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:144)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:161)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:160)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:99)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:308)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:291)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1140)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:403)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-12 17:18:19 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 17:18:23 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 17:18:23 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Nikhil', lastName='Rajguru', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=09503f80-df19-11e7-9414-b503027b1beb
+2017-12-12 17:19:45 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 17:19:50 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 17:19:50 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Nikhil', lastName='Rajguru', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=09503f80-df19-11e7-9414-b503027b1beb
+2017-12-12 17:32:19 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 17:32:19 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 17:32:19 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Nikhil', lastName='Rajguru', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=09503f80-df19-11e7-9414-b503027b1beb IF EXISTS;
+2017-12-12 17:36:23 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 17:36:23 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 17:36:23 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Nikhil', lastName='Rajguru', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=09503f80-df19-11e7-9414-b503027b1beb IF EXISTS;
+2017-12-12 17:38:15 ERROR HappyPatientsService:175 - Patient with given Id does not exist.
+java.lang.NullPointerException
+	at com.sjsu.cs249.Services.HappyPatientsService.deletePatient(HappyPatientsService.java:171)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:144)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:161)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:160)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:99)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:308)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:291)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1140)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:403)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-12 17:38:26 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 17:38:26 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 17:38:26 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Nikhil', lastName='Rajguru', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=09503f80-df19-11e7-9414-b503027b1beb IF EXISTS;
+2017-12-12 17:51:34 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 17:51:34 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 17:51:34 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Nikhil', lastName='Rajguru', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=095102d0-df19-11e7-9414-b503027b1beb IF EXISTS;
+2017-12-12 17:52:01 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 17:52:01 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 17:52:01 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Nikhil', lastName='Rajguru', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=09503f80-df19-11e7-9414-b503027b1beb IF EXISTS;
+2017-12-12 17:54:56 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 17:54:56 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 17:54:56 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Nikhil', lastName='Rajguru', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=09503f80-df19-11e7-9414-b503027b1beb IF EXISTS;
+2017-12-12 17:56:53 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 17:56:53 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 17:56:53 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Nikhil', lastName='Rajguru', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=09503f80-df19-11e7-9414-b503027b1beb IF EXISTS;
+2017-12-12 17:58:49 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 17:58:49 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 17:58:49 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Nikhil', lastName='Rajguru', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=09503f80-df19-11e7-9414-b503027b1beb IF EXISTS;
+2017-12-12 18:01:05 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 18:01:09 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 18:01:09 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Nikhil', lastName='Rajguru', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=09503f80-df19-11e7-9414-b503027b1beb IF EXISTS;
+2017-12-12 18:03:50 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 18:03:54 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 18:03:54 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Nikhil', lastName='Rajguru', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=09503f80-df19-11e7-9414-b503027b1beb IF EXISTS;
+2017-12-12 18:06:28 ERROR HappyPatientsService:164 - Patient with given Id does not exist.
+java.lang.NullPointerException
+	at com.sjsu.cs249.Services.HappyPatientsService.deletePatient(HappyPatientsService.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:144)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:161)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:160)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:99)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:308)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:291)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1140)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:403)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-12 18:09:00 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 18:09:04 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 18:09:04 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Sonali', lastName='MishraMishra', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=cd5498f0-dfa9-11e7-8861-9f42d867f569
+2017-12-12 18:11:29 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 18:14:26 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 18:14:26 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 18:14:26 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Sonali', lastName='MishraMishra', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=cd5498f0-dfa9-11e7-8861-9f42d867f569
+2017-12-12 18:18:02 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 18:18:02 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 18:18:02 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Sonali', lastName='MishraMishra', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=cd5498f0-dfa9-11e7-8861-9f42d867f569
+2017-12-12 18:18:33 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 18:18:33 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 18:18:33 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Sonali', lastName='MishraMishra', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=cd5498f0-dfa9-11e7-8861-9f42d867f569
+2017-12-12 18:19:17 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 18:19:17 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 18:19:17 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Sonali', lastName='MishraMishra', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=cd5498f0-dfa9-11e7-8861-9f42d867f569
+2017-12-12 18:19:48 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 18:19:48 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 18:19:48 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Sonali', lastName='MishraMishra', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=22bf0d70-dfaa-11e7-9991-0b80ea0e9254 IF EXISTS;
+2017-12-12 18:24:46 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 18:24:46 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 18:24:46 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Sonali', lastName='MishraMishra', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=22bf0d70-dfaa-11e7-9991-0b80ea0e9254 IF EXISTS;
+2017-12-12 18:26:01 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 18:26:01 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 18:26:01 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Sonali', lastName='MishraMishra', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=a72af060-dfa0-11e7-ad12-799d5d0044cc IF EXISTS;
+2017-12-12 18:26:39 DEBUG HappyPatientsService:131 - Updating Patient info
+2017-12-12 18:26:39 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 18:26:39 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='Sonali', lastName='MishraMishra', address='Ringwood Creek Blvd', phoneNumber='4081111111', birthDate='23/11/1990', status='Ongoing'  WHERE id=fdd45710-dfac-11e7-b15a-63a28f6ee8a2 IF EXISTS;
+2017-12-12 19:44:13 DEBUG HappyPatientsService:210 - Updating Patient info
+2017-12-12 19:44:13 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 19:44:13 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='SSSS', lastName='MMM', address='Ringwood Creek Blvd', phoneNumber='408991-1111', birthDate='11/23/1990', status='Urgent Care'  WHERE id=fdd45710-dfac-11e7-b15a-63a28f6ee8a2 IF EXISTS;
+2017-12-12 19:44:44 DEBUG HappyPatientsService:210 - Updating Patient info
+2017-12-12 19:44:44 DEBUG PatientPersonalInfo:66 - UPDATE Query:
+2017-12-12 19:44:44 DEBUG PatientPersonalInfo:67 - UPDATE PatientPersonalInfo SET firstName='SSSS', lastName='MMM', address='Ringwood Creek Blvd', phoneNumber='408991-1111', birthDate='11/23/1990', status='Urgent Care'  WHERE id=b11dd880-dfb4-11e7-805b-b75800bec11b IF EXISTS;
